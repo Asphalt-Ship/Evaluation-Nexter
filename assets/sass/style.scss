@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,400&family=Nunito:ital,wght@0,300;1,300&display=swap');
+
+// general
+
+body {
+    font-family: 'Nunito', sans-serif;
+    & h1 {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+
+.yellow-txt {
+    color: #C69963;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+button {
+    background-color: #C69963;
+    font-size: 0.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+// header
+
+.header {
+    background-color: #101d2c;
+    & #banner {
+        background-image: url(../img/hero.jpeg);
+        background-color: #101d2c;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
+        & #sideline {
+            width: 90%;
+            & #seen-on {
+              overflow: hidden;
+              opacity: 0.7;
+                &:after {
+                    content: "";
+                    display: inline-block;
+                    height: 0.7em;
+                    vertical-align: bottom;
+                    width: 50%;
+                    margin-right: -50%;
+                    margin-left: 15px;
+                    border-top: 1px solid white;
+                    opacity: 0.7;
+                }
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    height: 0.7em;
+                    vertical-align: bottom;
+                    width: 50%;
+                    margin-right: 15px;
+                    margin-left: -50%;
+                    border-top: 1px solid white;
+                    opacity: 0.7;
+                }
+            }
+        }
+        & img {
+            height: 20px;
+        }
+        & span {
+            & img {
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+// relators 
+
+#relators {
+    & .relator-name {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.1rem;
+    }
+    & .relator-sells {
+        opacity: 0.7;
+        font-size: 0.7rem;
+    }
+    & img {
+        height: 75px;
+    }
+}

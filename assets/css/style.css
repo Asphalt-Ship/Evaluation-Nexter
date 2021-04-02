@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,400&family=Nunito:ital,wght@0,300;1,300&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+}
+body h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.yellow-txt {
+  color: #C69963;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.9rem;
+}
+
+button {
+  background-color: #C69963;
+  font-size: 0.8rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header {
+  background-color: #101d2c;
+}
+.header #banner {
+  background-image: url(../img/hero.jpeg);
+  background-color: #101d2c;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.header #banner #sideline {
+  width: 90%;
+}
+.header #banner #sideline #seen-on {
+  overflow: hidden;
+  opacity: 0.7;
+}
+.header #banner #sideline #seen-on:after {
+  content: "";
+  display: inline-block;
+  height: 0.7em;
+  vertical-align: bottom;
+  width: 50%;
+  margin-right: -50%;
+  margin-left: 15px;
+  border-top: 1px solid white;
+  opacity: 0.7;
+}
+.header #banner #sideline #seen-on:before {
+  content: "";
+  display: inline-block;
+  height: 0.7em;
+  vertical-align: bottom;
+  width: 50%;
+  margin-right: 15px;
+  margin-left: -50%;
+  border-top: 1px solid white;
+  opacity: 0.7;
+}
+.header #banner img {
+  height: 20px;
+}
+.header #banner span img {
+  opacity: 0.7;
+}
+
+#relators .relator-name {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
+}
+#relators .relator-sells {
+  opacity: 0.7;
+  font-size: 0.7rem;
+}
+#relators img {
+  height: 75px;
+}
