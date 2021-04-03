@@ -12,19 +12,15 @@
     <title>nexter &mdash; your home, your freedom</title>
 </head>
 <body>
-    
+ 
     <!-- main container -->
-    <div class="container-fluid">
+    <div id="main" class="container-fluid">
 
         <!-- navbar -->
-        <div class="row">
-            <div class="col-md-12">
-                
-            </div>
-        </div>
+
 
         <!-- header -->
-        <div class="header row">
+        <div class="header row mb-5">
 
             <!-- banner -->
             <div id="banner" class="col-md-8 d-flex flex-column justify-content-between">
@@ -40,9 +36,11 @@
                             The ultimate personal freedom
                         </div>
                         <div class="col-md-12">
-                            <button class="text-white border-0 px-3 py-2 text-uppercase">
-                                view our properties
-                            </button>
+                            <a href="#">
+                                <button class="text-white border-0 px-3 py-2 text-uppercase">
+                                    view our properties
+                                </button>
+                            </a>
                         </div>
                     </div>                       
                 </div>
@@ -107,93 +105,270 @@
         </div>
 
         <!-- products description -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-4">
+        <div id="prod-desc" class="row d-flex justify-content-around">
+            <div class="col-md-10 my-3 my-md-5">
+                <div class="row mb-md-5">
+                    <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                        <div class="desc-title fw-bold mb-3">
+                            World's best luxury homes
+                        </div>
+                        <div class="desc-txt w-75 mb-5 mb-md-0">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores illo facilis consequatur.
+                        </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                        <div class="desc-title fw-bold mb-3">
+                            Only the best properties
+                        </div>
+                        <div class="desc-txt w-75 mb-5 mb-md-0">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores illo facilis consequatur.
+                        </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                        <div class="desc-title fw-bold mb-3">
+                            All homes in the top locations
+                        </div>
+                        <div class="desc-txt w-75 mb-5 mb-md-0">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores illo facilis consequatur.
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                        <div class="desc-title fw-bold mb-3">
+                            New home in one week
+                        </div>
+                        <div class="desc-txt w-75 mb-5 mb-md-0">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores illo facilis consequatur.
+                        </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                        <div class="desc-title fw-bold mb-3">
+                            Top 1% relators
+                        </div>
+                        <div class="desc-txt w-75 mb-5 mb-md-0">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores illo facilis consequatur.
+                        </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                        <div class="desc-title fw-bold mb-3">
+                            Secure payments on nexter
+                        </div>
+                        <div class="desc-txt w-75 mb-5 mb-md-0">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores illo facilis consequatur.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- review block -->
-        <div class="row">
+        <div id="review-block" class="row mb-5 shadow">
 
-            <!-- images left side -->
-            <div class="col-md-6">
-                <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+            <!-- left side -->
+            <div id="review-left" class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="story-wrapper d-flex justify-content-center">
+                    <img id="story-1" class="w-75 my-5" src="assets/img/story-1.jpeg" alt="un couple regarde le coucher de soleil">
+                </div>
+                <div class="story-wrapper d-flex justify-content-center">
+                    <img id="story-2" class="w-75 d-flex justify-content-center" src="assets/img/story-2.jpeg" alt="une villa avec vue sur piscine, de nuit">
+                </div>
             </div>
 
-            <!-- text right side -->
-            <div class="col-md-6">
+            <!-- right side -->
+            <div id="review-right" class="col-md-6 d-flex justify-content-center">
+                <div class="w-75 my-4 py-3 my-md-5 py-md-4">
+                    <div class="yellow-txt text-uppercase mb-3">
+                        Happy customers
+                    </div>
+                    <div id="review-quote" class="fst-italic fs-2 mb-3">
+                        "The best decision of our lives"
+                    </div>
+                    <div id="review-txt" class="fst-italic mb-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem laboriosam eius commodi necessitatibus quisquam expedita. Tempora, placeat!
+                    </div>
+                    <a href="#">
+                        <button class="text-white text-uppercase px-3 py-2 border-0">
+                            Find your own home
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
 
         <!-- products showcase -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+        <div id="showcase" class="row d-flex justify-content-center">
+            <div class="col-md-12 my-5 w-75">
+                <div class="row mb-md-5">
+                    <div class="showcase-item col-md-4 d-flex justify-content-center mb-5 mb-md-0">
+                        <div class="item-wrapper d-flex flex-column align-items-center">
+                            <div>
+                                <img class="w-100" src="assets/img/house-1.jpeg">
+                            </div>
+                            <div class="item-title text-white text-center py-2 mb-4">
+                                Beautiful Family House
+                            </div>
+                            <table class="w-75 mb-4">
+                                <tr>
+                                    <td>USA</td>
+                                    <td>5 rooms</td>
+                                </tr>
+                                <tr>
+                                    <td>325m²</td>
+                                    <td>$1.200.000</td>
+                                </tr>
+                            </table>
+                            <a class="w-100" href="#">
+                                <button class="w-100 text-white text-uppercase border-0 px-3 py-2">Contact relator</button>
+                            </a>    
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                    <div class="showcase-item col-md-4 d-flex justify-content-center mb-5 mb-md-0">
+                        <div class="item-wrapper d-flex flex-column align-items-center">
+                            <div>
+                                <img class="w-100" src="assets/img/house-2.jpeg">
+                            </div>
+                            <div class="item-title text-white text-center py-2 mb-4">
+                                Modern Glass Villa
+                            </div>
+                            <table class="w-75 mb-4">
+                                <tr>
+                                    <td>Canada</td>
+                                    <td>6 rooms</td>
+                                </tr>
+                                <tr>
+                                    <td>450m²</td>
+                                    <td>$2.750.000</td>
+                                </tr>
+                            </table>
+                            <a class="w-100" href="#">
+                                <button class="w-100 text-white text-uppercase border-0 px-3 py-2">Contact relator</button>
+                            </a>    
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                    <div class="showcase-item col-md-4 d-flex justify-content-center mb-5 mb-md-0">
+                        <div class="item-wrapper d-flex flex-column align-items-center">
+                            <div>
+                                <img class="w-100" src="assets/img/house-3.jpeg">
+                            </div>
+                            <div class="item-title text-white text-center py-2 mb-4">
+                                Cozy Country House
+                            </div>
+                            <table class="w-75 mb-4">
+                                <tr>
+                                    <td>UK</td>
+                                    <td>4 rooms</td>
+                                </tr>
+                                <tr>
+                                    <td>250m²</td>
+                                    <td>$850.000</td>
+                                </tr>
+                            </table>
+                            <a class="w-100" href="#">
+                                <button class="w-100 text-white text-uppercase border-0 px-3 py-2">Contact relator</button>
+                            </a>    
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
-                        <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                    <div class="showcase-item col-md-4 d-flex justify-content-center mb-5 mb-md-0">
+                        <div class="item-wrapper d-flex flex-column align-items-center">
+                            <div>
+                                <img class="w-100" src="assets/img/house-4.jpeg">
+                            </div>
+                            <div class="item-title text-white text-center py-2 mb-4">
+                                Large Rustical Villa
+                            </div>
+                            <table class="w-75 mb-4">
+                                <tr>
+                                    <td>Portugal</td>
+                                    <td>6 rooms</td>
+                                </tr>
+                                <tr>
+                                    <td>480m²</td>
+                                    <td>$1.950.000</td>
+                                </tr>
+                            </table>
+                            <a class="w-100" href="#">
+                                <button class="w-100 text-white text-uppercase border-0 px-3 py-2">Contact relator</button>
+                            </a>    
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                    <div class="showcase-item col-md-4 d-flex justify-content-center mb-5 mb-md-0">
+                        <div class="item-wrapper d-flex flex-column align-items-center">
+                            <div>
+                                <img class="w-100" src="assets/img/house-5.jpeg">
+                            </div>
+                            <div class="item-title text-white text-center py-2 mb-4">
+                                Majestic Palace House
+                            </div>
+                            <table class="w-75 mb-4">
+                                <tr>
+                                    <td>Germany</td>
+                                    <td>18 rooms</td>
+                                </tr>
+                                <tr>
+                                    <td>4230m²</td>
+                                    <td>$9.500.000</td>
+                                </tr>
+                            </table>
+                            <a class="w-100" href="#">
+                                <button class="w-100 text-white text-uppercase border-0 px-3 py-2">Contact relator</button>
+                            </a>    
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                    <div class="showcase-item col-md-4 d-flex justify-content-center">
+                        <div class="item-wrapper d-flex flex-column align-items-center">
+                            <div>
+                                <img class="w-100" src="assets/img/house-6.jpeg">
+                            </div>
+                            <div class="item-title text-white text-center py-2 mb-4">
+                                Modern Family Apartment
+                            </div>
+                            <table class="w-75 mb-4">
+                                <tr>
+                                    <td>Italy</td>
+                                    <td>3 rooms</td>
+                                </tr>
+                                <tr>
+                                    <td>180m²</td>
+                                    <td>$600.000</td>
+                                </tr>
+                            </table>
+                            <a class="w-100" href="#">
+                                <button class="w-100 text-white text-uppercase border-0 px-3 py-2">Contact relator</button>
+                            </a>    
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- footer -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-2">
-                        Find your dream home
+        <div class="footer row mt-5">
+            <div class="col-md-12 d-flex flex-column align-items-center my-5">
+                <div class="row text-md-center d-flex align-items-center mb-5 ms-3 ms-md-0">
+                    <div class="footer-links col-md-2 text-uppercase mb-2 mb-md-0">
+                        <a class="text-decoration-none text-white" href="#">Find your dream home</a>
                     </div>
-                    <div class="col-md-2">
-                        Request proposal
+                    <div class="footer-links col-md-2 text-uppercase mb-2 mb-md-0">
+                        <a class="text-decoration-none text-white" href="#">Request proposal</a>
                     </div>
-                    <div class="col-md-2">
-                        Download home planner
+                    <div class="footer-links col-md-2 text-uppercase mb-2 mb-md-0">
+                        <a class="text-decoration-none text-white" href="#">Download home planner</a>
                     </div>
-                    <div class="col-md-2">
-                        Contact us
+                    <div class="footer-links col-md-2 text-uppercase mb-2 mb-md-0">
+                        <a class="text-decoration-none text-white" href="#">Contact us</a>
                     </div>
-                    <div class="col-md-2">
-                        Submit your property
+                    <div class="footer-links col-md-2 text-uppercase mb-2 mb-md-0">
+                        <a class="text-decoration-none text-white" href="#">Submit your property</a>
                     </div>
-                    <div class="col-md-2">
-                        Come work with us!
+                    <div class="footer-links col-md-2 text-uppercase">
+                        <a class="text-decoration-none text-white" href="#">Come work with us!</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
+                <div class="row d-flex justify-content-center text-center text-white">
+                    <div id="copyrights" class="col-md-12 w-75">
                         © Copyright 2017 by Jonas Schmedtmann. Feel free to use this project for your own purposes. This does NOT apply if you plan to produce your own course or tutorial based on this project.
                     </div>
                 </div>
@@ -201,6 +376,7 @@
         </div>
 
     </div>
+   
     
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
