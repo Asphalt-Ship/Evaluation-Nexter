@@ -25,6 +25,13 @@ button:active {
   background-color: #b48042;
 }
 
+nav {
+  background-color: #C69963 !important;
+}
+nav .navbar-brand {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 .header {
   background-color: #101d2c;
 }
@@ -148,8 +155,4 @@ button:active {
 }
 .footer #copyrights {
   opacity: 0.7;
-}
-
-#navbar-col {
-  background-color: #c69963;
 }

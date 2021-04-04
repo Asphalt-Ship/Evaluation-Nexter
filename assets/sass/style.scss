@@ -28,6 +28,15 @@ button {
     }
 }
 
+// navbar
+
+nav {
+    background-color: #C69963 !important;
+    & .navbar-brand {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+
 // header
 
 .header {
@@ -174,10 +183,4 @@ button {
     & #copyrights {
         opacity: 0.7;
     }
-}
-
-// test ---------
-
-#navbar-col {
-    background-color: #c69963;
 }
